@@ -16,9 +16,7 @@ public class DeluxeSellwandsAPI {
 	}
 	
 	public static ItemStack setUses(ItemStack sellwand, int uses) {
-		
 		return null;
-		
 	}
 	
 	public static int getTotalAmountStatistic(ItemStack sellwand) {
@@ -46,9 +44,7 @@ public class DeluxeSellwandsAPI {
 	}
 	
 	public static ItemStack createSellWand(DeluxeSellwands instance, Material material, int materialData, Double sellMultiplier, int uses, Boolean glow) {
-		
 		return null;
-		
 	}
 
 }

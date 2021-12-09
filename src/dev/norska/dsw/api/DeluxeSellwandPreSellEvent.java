@@ -1,5 +1,6 @@
 package dev.norska.dsw.api;
 
+import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
@@ -11,10 +12,12 @@ public class DeluxeSellwandPreSellEvent extends Event implements Cancellable{
     private final Player player;
     private boolean isCancelled;
     private ItemStack sellwand;
+    private Block block;
 
-    public DeluxeSellwandPreSellEvent(Player player1, ItemStack sellwand1) {
+    public DeluxeSellwandPreSellEvent(Player player1, ItemStack sellwand1, Block block1) {
         this.player = player1;
         this.sellwand = sellwand1;
+        this.block = block1;
         this.isCancelled = false;
     }
 
@@ -42,6 +45,10 @@ public class DeluxeSellwandPreSellEvent extends Event implements Cancellable{
     
     public ItemStack getSellwand() {
     	return this.sellwand;
+    }
+    
+    public Block getClickedBlock() {
+    	return this.block;
     }
     
 }
