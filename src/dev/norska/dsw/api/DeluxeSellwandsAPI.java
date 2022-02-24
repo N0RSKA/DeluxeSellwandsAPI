@@ -1,5 +1,7 @@
 package dev.norska.dsw.api;
 
+import java.util.UUID;
+
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
@@ -11,19 +13,19 @@ public class DeluxeSellwandsAPI {
 		
 	}
 	
-	public static int getPlayerTokens(Player p) {
+	public static int getPlayerTokens(UUID uuid) {
 		return 0;
 	}
 	
-	public static void addPlayerTokens(Player p, int amount) {
+	public static void addPlayerTokens(UUID uuid, int amount) {
 		
 	}
 	
-	public static void takePlayerTokens(Player p, int amount) {
+	public static void takePlayerTokens(UUID uuid, int amount) {
 
 	}
 	
-	public static void setPlayerTokens(Player p, int amount) {
+	public static void setPlayerTokens(UUID uuid, int amount) {
 
 	}
 	
