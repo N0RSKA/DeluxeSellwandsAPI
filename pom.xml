@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.norska.dsw</groupId>
   <artifactId>DeluxeSellwandsAPI</artifactId>
-  <version>28a</version>
+  <version>29a</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
