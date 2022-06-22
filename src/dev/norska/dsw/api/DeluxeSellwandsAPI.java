@@ -41,6 +41,10 @@ public class DeluxeSellwandsAPI {
 		return null;
 	}
 	
+	public static Boolean isValidDischargerTier(DeluxeSellwands instance, String tier) {
+		return null;
+	}
+	
 	public static String getSellwandTier(ItemStack sellwand) {
 		return null;
 	}
@@ -53,7 +57,15 @@ public class DeluxeSellwandsAPI {
 		return null;
 	}
 	
+	public static Boolean isDischarger(ItemStack charger) {
+		return null;
+	}
+	
 	public static String getChargerTier(DeluxeSellwands instance, ItemStack charger) {
+		return null;
+	}
+	
+	public static String getDischargerTier(DeluxeSellwands instance, ItemStack charger) {
 		return null;
 	}
 	
