@@ -2,6 +2,7 @@ package dev.norska.dsw;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import dev.norska.dsw.api.DeluxeSellwandsAPI;
 import dev.norska.dsw.prices.DSWEconInterfaceManager;
 import dev.norska.dsw.prices.DSWPriceHandlerInterfaceManager;
 import lombok.Getter;
@@ -14,4 +15,5 @@ public class DeluxeSellwands extends JavaPlugin{
     	 
 	@Getter private DSWEconInterfaceManager econProvider = new DSWEconInterfaceManager();
 	@Getter private DSWPriceHandlerInterfaceManager priceHandler = new DSWPriceHandlerInterfaceManager();
+	@Getter private DeluxeSellwandsAPI API = new DeluxeSellwandsAPI();
 }

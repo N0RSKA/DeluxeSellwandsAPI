@@ -9,113 +9,113 @@ import dev.norska.dsw.DeluxeSellwands;
 
 public class DeluxeSellwandsAPI {
 	
-	public static void debugPrintSellwandInformation(Player p, ItemStack sellwand) {
+	public void debugPrintSellwandInformation(Player p, ItemStack sellwand) {
 		
 	}
 	
-	public static int getPlayerTokens(UUID uuid) {
+	public int getPlayerTokens(UUID uuid) {
 		return 0;
 	}
 	
-	public static void addPlayerTokens(UUID uuid, int amount) {
+	public void addPlayerTokens(UUID uuid, int amount) {
 		
 	}
 	
-	public static void takePlayerTokens(UUID uuid, int amount) {
+	public void takePlayerTokens(UUID uuid, int amount) {
 
 	}
 	
-	public static void setPlayerTokens(UUID uuid, int amount) {
+	public void setPlayerTokens(UUID uuid, int amount) {
 
 	}
 	
-	public static Boolean isSellwand(ItemStack sellwand) {
+	public Boolean isSellwand(ItemStack sellwand) {
 		return null;
 	}
 	
-	public static Boolean isValidSellwandTier(DeluxeSellwands instance, String tier) {
+	public Boolean isValidSellwandTier(DeluxeSellwands instance, String tier) {
 		return null;
 	}
 	
-	public static Boolean isValidChargerTier(DeluxeSellwands instance, String tier) {
+	public Boolean isValidChargerTier(DeluxeSellwands instance, String tier) {
 		return null;
 	}
 	
-	public static Boolean isValidDischargerTier(DeluxeSellwands instance, String tier) {
+	public Boolean isValidDischargerTier(DeluxeSellwands instance, String tier) {
 		return null;
 	}
 	
-	public static String getSellwandTier(ItemStack sellwand) {
+	public String getSellwandTier(ItemStack sellwand) {
 		return null;
 	}
 	
-	public static String getSellwandTypeName(DeluxeSellwands instance, ItemStack sellwand) {
+	public String getSellwandTypeName(DeluxeSellwands instance, ItemStack sellwand) {
 		return null;
 	}
 	
-	public static Boolean isCharger(ItemStack charger) {
+	public Boolean isCharger(ItemStack charger) {
 		return null;
 	}
 	
-	public static Boolean isDischarger(ItemStack charger) {
+	public Boolean isDischarger(ItemStack charger) {
 		return null;
 	}
 	
-	public static String getChargerTier(DeluxeSellwands instance, ItemStack charger) {
+	public String getChargerTier(DeluxeSellwands instance, ItemStack charger) {
 		return null;
 	}
 	
-	public static String getDischargerTier(DeluxeSellwands instance, ItemStack charger) {
+	public String getDischargerTier(DeluxeSellwands instance, ItemStack charger) {
 		return null;
 	}
 	
-	public static int getUses(ItemStack sellwand) {
+	public int getUses(ItemStack sellwand) {
 		return 0;
 	}
 	
-	public static String getSellwandID(ItemStack sellwand) {
+	public String getSellwandID(ItemStack sellwand) {
 		return null;
 	}
 	
-	public static int getChargerUses(ItemStack charger) {
+	public int getChargerUses(ItemStack charger) {
 		return 0;
 	}
 
-	public static int getTotalAmountStatistic(ItemStack sellwand) {
+	public int getTotalAmountStatistic(ItemStack sellwand) {
 		return 0;
 	}
 	
-	public static int getTotalMoneyStatistic(ItemStack sellwand) {
+	public int getTotalMoneyStatistic(ItemStack sellwand) {
 		return 0;
 	}
 	
-	public static Double getMultiplier(ItemStack sellwand) {
+	public Double getMultiplier(ItemStack sellwand) {
 		return null;
 	}
 
 	// SELLWAND BINDING SECTION
 	
-	public static Boolean isBoundToPlayer(ItemStack item) {
+	public Boolean isBoundToPlayer(ItemStack item) {
 		return null;
 	}
 	
-	public static String getSellwandOwnerName(ItemStack item) {
+	public String getSellwandOwnerName(ItemStack item) {
 		return null;
 	}	
 	
-	public static String getSellwandOwnerUUID(ItemStack item) {
+	public String getSellwandOwnerUUID(ItemStack item) {
 		return null;
 	}
 	
-	public static int getSellwandEnchantmentLevel(ItemStack sellwand, String enchantmentName) {
+	public int getSellwandEnchantmentLevel(ItemStack sellwand, String enchantmentName) {
 		return 0;
 	}
 	
-	public static ItemStack createSellWand(DeluxeSellwands instance, String type, Double sellMultiplier, int uses) {
+	public ItemStack createSellWand(DeluxeSellwands instance, String type, Double sellMultiplier, int uses) {
 		return null;
 	}
 	
-	public static ItemStack createSellwandCharger(DeluxeSellwands instance, String type, int uses) {
+	public ItemStack createSellwandCharger(DeluxeSellwands instance, String type, int uses) {
 		return null;
 	}
 
