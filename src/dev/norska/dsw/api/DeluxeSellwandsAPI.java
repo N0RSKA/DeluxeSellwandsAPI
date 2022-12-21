@@ -9,6 +9,11 @@ import dev.norska.dsw.DeluxeSellwands;
 
 public class DeluxeSellwandsAPI {
 	
+	private DeluxeSellwands instance;
+	public DeluxeSellwandsAPI(DeluxeSellwands instance) {
+	   this.instance = instance;
+	} 
+	
 	public void debugPrintSellwandInformation(Player p, ItemStack sellwand) {
 		
 	}
@@ -33,15 +38,15 @@ public class DeluxeSellwandsAPI {
 		return null;
 	}
 	
-	public Boolean isValidSellwandTier(DeluxeSellwands instance, String tier) {
+	public Boolean isValidSellwandTier(String tier) {
 		return null;
 	}
 	
-	public Boolean isValidChargerTier(DeluxeSellwands instance, String tier) {
+	public Boolean isValidChargerTier(String tier) {
 		return null;
 	}
 	
-	public Boolean isValidDischargerTier(DeluxeSellwands instance, String tier) {
+	public Boolean isValidDischargerTier(String tier) {
 		return null;
 	}
 	
@@ -49,7 +54,7 @@ public class DeluxeSellwandsAPI {
 		return null;
 	}
 	
-	public String getSellwandTypeName(DeluxeSellwands instance, ItemStack sellwand) {
+	public String getSellwandTypeName(ItemStack sellwand) {
 		return null;
 	}
 	
@@ -61,11 +66,11 @@ public class DeluxeSellwandsAPI {
 		return null;
 	}
 	
-	public String getChargerTier(DeluxeSellwands instance, ItemStack charger) {
+	public String getChargerTier(ItemStack charger) {
 		return null;
 	}
 	
-	public String getDischargerTier(DeluxeSellwands instance, ItemStack charger) {
+	public String getDischargerTier(ItemStack charger) {
 		return null;
 	}
 	
@@ -111,11 +116,11 @@ public class DeluxeSellwandsAPI {
 		return 0;
 	}
 	
-	public ItemStack createSellWand(DeluxeSellwands instance, String type, Double sellMultiplier, int uses) {
+	public ItemStack createSellWand(String type, Double sellMultiplier, int uses) {
 		return null;
 	}
 	
-	public ItemStack createSellwandCharger(DeluxeSellwands instance, String type, int uses) {
+	public ItemStack createSellwandCharger(String type, int uses) {
 		return null;
 	}
 

@@ -15,5 +15,5 @@ public class DeluxeSellwands extends JavaPlugin{
     	 
 	@Getter private DSWEconInterfaceManager econProvider = new DSWEconInterfaceManager();
 	@Getter private DSWPriceHandlerInterfaceManager priceHandler = new DSWPriceHandlerInterfaceManager();
-	@Getter private DeluxeSellwandsAPI API = new DeluxeSellwandsAPI();
+	@Getter private DeluxeSellwandsAPI API = new DeluxeSellwandsAPI(this);
 }
