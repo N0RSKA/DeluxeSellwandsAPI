@@ -355,6 +355,38 @@ public class DeluxeSellwandsAPI {
 	
 	/**
 	 * 
+	 * Update an existing sellwand without player related statistics.
+	 * currentWand Should be checked with {@link #isSellwand(ItemStack)} first.
+	 * 
+	 * @param ItemStack
+	 * @param int
+	 * @param int
+	 * @return ItemStack
+	 */
+	
+	public ItemStack updateSellwandWithoutPlayerRelatedStats(ItemStack currentWand, int itemAmount, int moneyAmount) {
+		return null;
+	}
+	
+	/**
+	 * 
+	 * Update an existing sellwand with player related statistics.
+	 * currentWand Should be checked with {@link #isSellwand(ItemStack)} first.
+	 * 
+	 * @param Player
+	 * @param ItemStack
+	 * @param int
+	 * @param int
+	 * @param Boolean
+	 * @return ItemStack
+	 */
+	
+	public ItemStack updateSellwandWithPlayerRelatedStats(Player p, ItemStack currentWand, int itemAmount, int moneyAmount, Boolean bindToPlayer) {
+		return null;
+	}
+	
+	/**
+	 * 
 	 * Create a sellwand charger (ItemStack).
 	 * Will throw null exception if the type is invalid.
 	 * Any String that shows up in tab completion when using the command in-game is a valid type.
